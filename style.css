@@ -12,7 +12,7 @@ footer {
 
 h1 {
   text-align: center;
-  background-color: white;
+  color: white ;
 }
 
 h2 {
@@ -23,7 +23,6 @@ h2 {
 .body, html {
     height: 100%;
     background-repeat: no-repeat;
-    background: url(https://picsum.photos/400/400) no-repeat center center fixed;
     background-size: 100% 100%;
     background-color: black;
 }
@@ -32,7 +31,6 @@ section {
     max-width: 100%;
     padding: 0px;
     margin: 0 0;
-    background-color: rgb(59, 57, 57);
   }
 
 .dropdown-btn {
@@ -81,12 +79,6 @@ section {
     display:block;
 }
 
-@media screen and (min-width: 1224px) {
-
-    .headline {
-      font-size: 6rem;
-    }
-}
 
 @media (min-width: 600px) {
   
@@ -112,13 +104,13 @@ aside {
 .social {
 	position: fixed; 
 	left:0; 
-	top: 200px;
+	top: 250px;
 	z-index: 2000; 
 }
  
 .social ul {
-		list-style: none;
-	}
+	list-style: none;
+}
  
 .social ul li a {
 		display: inline-block;
