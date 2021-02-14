@@ -10,6 +10,13 @@ footer {
     height: 40px;
   }
 
+body {
+ background-image: url(https://image.freepik.com/foto-gratis/muro-madera-texto-fondo_1249-438.jpg);
+  background-position: center center;
+  background-size: cover;
+
+}
+
 h1 {
   text-align: center;
   color: white ;
