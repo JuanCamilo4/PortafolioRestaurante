@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,500&display=swap');
+@font-face{
+    font-family: "Rowan";
+    src: url("../fonts/RowanMaskide.ttf");
+    src: local(),
+        url("../fonts/RowanMaskide.woff") format("woff"),
+        url("../fonts/RowanMaskide.ttf") format("otf");
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000;
+}
+.nav-menu-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    margin-top: 1.8%;
+}
+.container-logo{
+    text-align: center;
+}
+.container-logo a img{
+    width: 25%;
+}
+.container-btn-header a{
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 30px;
+    font-size: 12px;
+    transition: all 0.5s;
+}
+.container-btn-header a:hover{
+    border: 1px solid rgb(255, 205, 0);
+    color: rgb(255, 205, 0);
+    transition: all 0.5s;
+}
+/*-------Sección de reservaciones-----*/
+main{
+    margin-top: 6%;
+}
+form{
+    text-align: center;
+}
+/**Atributos de los elementos del form**/
+select, #date{
+    padding: 12px 15px;
+    color: #5e5e5e;
+    width: 100%;
+    border: 1px solid #979797;
+    border-radius: 0px;
+    border-bottom: 0px solid;
+}
+select:first-child{
+    margin-bottom: 5%;
+    border-bottom: 1px solid #979797;
+}
+#numeroPersonas{
+    border-bottom: 1px solid #979797;
+}
+#btnEnviar{
+    background-color: rgb(216, 46, 58);
+    border: none;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+#btnEnviar:hover{
+    cursor: pointer;
+    background-color: rgb(161, 37, 43);
+}
+/**/
+.title{
+    color: #fff;
+    font-family: Rowan;
+    text-align: center;
+    font-size: 40px;
+}
+.container-main-form{/*Container que contiene el formulario y la imagen */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.container-img-form {/*Container de la imagen*/
+    width: 35%;
+    height: 31vw;
+    background-image: url(../img/copa-vino.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 2.5%;
+}
+.container-form{ /*Container del formulario*/
+    background-color: #fff;
+    padding: 20px 15px;
+    margin-left: 18%;
+    border-radius: 5px;
+}
+.title-form{/**Titulo "hacer una reservacion**/
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 4%;
+    font-family: Montserrat;
+    color: #000;
+}
+select:focus, #btnEnviar:focus{
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+/*-------Sección de imagen----------*/
+section{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/restaurante.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 6%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-content-section{
+    text-align: center;
+}
+.container-content-section h1{
+    font-family: Rowan, Arial, Helvetica, sans-serif;
+    font-size: 65px;
+    margin: 0 auto;
+    color: #fff;
+}
+.container-content-section p{
+    margin-bottom: 3.8%;
+    color: #fff;
+}
+.container-content-section a{
+    background-color: rgb(255, 205, 0);
+    border: 1px solid rgb(255, 205, 0);
+    font-size: 12px;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: all 0.3s;
+}
+.container-content-section a:hover{
+    color: rgb(255, 205, 0);
+    background-color: #000;
+    border: 1px solid rgb(255, 205, 0);
+    transition: all 0.3s;
+}
+/***-----footer------***/
+footer{
+    padding: 5.5% 0;
+}
+footer .container-logo{
+    width: 50%;
+    margin: 0 auto;
+}
+.menu-footer{
+    text-align: center;
+    margin: 4%;
+}
+.menu-footer li{
+    display: inline-block;
+}
+.menu-footer li a{
+    color: rgb(141, 141, 141);
+    text-decoration: none;
+    font-size: 14px;
+    border-right: 1px solid #fff;
+    padding: 6px 15px;
+}
+.menu-footer li a:hover{
+    color: rgb(105, 105, 105);
+}
+.ultimo{
+    border-right: 0px solid !important;
+}
+footer p{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0.5% !important;
+}
+
+/***----Nav lateral----***/
+.menu-redes{
+    background-color: rgb(255, 204, 0);
+    position: fixed;
+    right: 0;
+    top: 30%;
+    width: 90px;
+
+}
+.menu-redes ul{
+    padding: 3px 4px;
+}
+.menu-redes ul li{
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+}
+.menu-redes ul li a{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+}
+.menu-redes ul li a i{
+    font-size: 21px;
+}
+
+@media screen and (max-width: 944px){
+    .menu-redes{
+        bottom: 0;
+        top: 93vh;
+        left: 0;
+        width: 100%;
+    }
+    .menu-redes ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+
+        margin: 3px auto;
+    }
+    .menu-redes ul li{
+        padding: 3px;
+    }
+    .container-btn-header{
+        margin-top: 3%;
+    }
+    .menu-footer{
+        margin: 4px 0px;
+    }
+    .menu-footer{
+        padding: 0% !important;
+    }
+    .menu-footer li{
+        margin-bottom: 2%;
+    }
+}
+@media screen and (max-width: 847px){
+    .container-logo{
+        width: 15%;
+    }
+    .container-logo a img{
+        width: 100%;
+    }
+    .img-footer{
+        width: 35% !important;
+    }
+}
+@media screen and (max-height: 1148){
+
+}
