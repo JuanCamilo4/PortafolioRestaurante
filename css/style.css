@@ -40,27 +40,27 @@ ul li {
 }
 
 ul li:nth-child(1) {
-    background-image: url(./img/burger.jpg);
+    background-image: url(https://juancamilo4.github.io/PortafolioRestaurante/img/burger.jpg);
     background-size: cover;
     background-position: left;
 }
 ul li:nth-child(2) {
-    background-image: url(/img/entradas.jpg);
+    background-image: url(https://juancamilo4.github.io/PortafolioRestaurante/img/entradas.jpg);
     background-size: cover;
     background-position: left;
 }
 ul li:nth-child(3) {
-    background-image: url(/img/bebidas.jpg);
+    background-image: url(https://juancamilo4.github.io/PortafolioRestaurante/img/bebidas.jpg);
     background-size: cover;
     background-position: left;
 }
 ul li:nth-child(4) {
-    background-image: url(/img/vino.jpg);
+    background-image: url(https://juancamilo4.github.io/PortafolioRestaurante/img/vino.jpg);
     background-size: cover;
     background-position: left;
 }
 ul li:nth-child(5) {
-    background-image: url(/img/dulce.jpg);
+    background-image: url(https://juancamilo4.github.io/PortafolioRestaurante/img/dulce.jpg);
     background-size: cover;
     background-position: left;
 }
